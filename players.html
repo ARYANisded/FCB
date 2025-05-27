@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAYERS</title>
+    <style>
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+header {
+    background-color: #004aad;
+    color: white;   
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    font-size: 20px;
+    background-color: #002a5c;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    font-weight: bold;
+    font-size: 18px; /* or larger as needed */
+    color: #ffcc00;
+    transition: all 0.3s ease;
+}
+    .players-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+
+
+.player-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.player-card:hover {
+  transform: scale(1.05);
+}
+
+.player-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+
+.player-card h3 {
+  margin-top: 15px;
+  color: #004aad;
+}
+
+.player-card p {
+  color: #333;
+}
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>FC Barcelona Legends</h1>
+        <nav>
+            <a href="sports.html">Home</a>
+            
+            <a href="history.html">History</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+</body>
+<section class="players-grid">
+  <div class="player-card">
+    <img  src="MESSI.jpg" alt="Lionel Messi" >
+    <h3>Lionel Messi</h3>
+    <p>Forward</p>
+  </div>
+  <div class="player-card">
+    <img src="949_xavi.jpg" alt="Xavi Hernandez">
+    <h3>Xavi Hernandez</h3>
+    <p>Midfielder</p>
+  </div>
+  <div class="player-card">
+    <img src="puyol.jpg" alt="Carles Puyol">
+    <h3>Carles Puyol</h3>
+    <p>Defender</p>
+  </div>
+    <div class="player-card">
+        <img src="INIESTA 2017-18.jpg" alt="Andres Iniesta">
+        <h3>Andres Iniesta</h3>
+        <p>Midfielder</p>
+    </div>
+  <div class="player-card">
+    <img src="603_neymar.jpg" alt="Neymar Jr">
+    <h3>Neymar Jr</h3>
+    <p>Forward</p>  
+    </div>
+    <div class="player-card">
+        <img src="suarez.jpg" alt="Luis Suarez">
+        <h3>Luis Suarez</h3>
+        <p>Forward</p>
+</section>
+
+</html>
